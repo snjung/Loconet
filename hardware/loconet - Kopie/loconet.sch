@@ -104,23 +104,23 @@ $EndComp
 $Comp
 L Device:R R6
 U 1 1 5EB90389
-P 7050 4600
-F 0 "R6" V 6950 4500 50  0000 C CNN
-F 1 "4k7" V 6950 4700 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6980 4600 50  0001 C CNN
-F 3 "~" H 7050 4600 50  0001 C CNN
-	1    7050 4600
+P 4750 5350
+F 0 "R6" V 4650 5250 50  0000 C CNN
+F 1 "4k7" V 4650 5450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4680 5350 50  0001 C CNN
+F 3 "~" H 4750 5350 50  0001 C CNN
+	1    4750 5350
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R8
 U 1 1 5EB90737
-P 7050 5550
-F 0 "R8" V 7150 5450 50  0000 C CNN
-F 1 "4k7" V 7150 5650 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6980 5550 50  0001 C CNN
-F 3 "~" H 7050 5550 50  0001 C CNN
-	1    7050 5550
+P 4750 6300
+F 0 "R8" V 4850 6200 50  0000 C CNN
+F 1 "4k7" V 4850 6400 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4680 6300 50  0001 C CNN
+F 3 "~" H 4750 6300 50  0001 C CNN
+	1    4750 6300
 	0    1    1    0   
 $EndComp
 $Comp
@@ -137,12 +137,12 @@ $EndComp
 $Comp
 L Diode:1N4004 D2
 U 1 1 5EB91827
-P 9450 5100
-F 0 "D2" H 9450 5000 50  0000 C CNN
-F 1 "1N4004" H 9450 5200 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 9450 4925 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 9450 5100 50  0001 C CNN
-	1    9450 5100
+P 8500 5300
+F 0 "D2" H 8500 5200 50  0000 C CNN
+F 1 "1N4004" H 8500 5400 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 8500 5125 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 8500 5300 50  0001 C CNN
+	1    8500 5300
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -159,23 +159,23 @@ $EndComp
 $Comp
 L Device:C C2
 U 1 1 5EB926C9
-P 10000 5200
-F 0 "C2" V 9748 5200 50  0000 C CNN
-F 1 "10uF" V 9839 5200 50  0000 C CNN
-F 2 "Capacitor_THT:C_Radial_D12.5mm_H20.0mm_P5.00mm" H 10038 5050 50  0001 C CNN
-F 3 "~" H 10000 5200 50  0001 C CNN
-	1    10000 5200
+P 9050 5400
+F 0 "C2" V 8798 5400 50  0000 C CNN
+F 1 "10uF" V 8889 5400 50  0000 C CNN
+F 2 "Capacitor_THT:C_Radial_D12.5mm_H20.0mm_P5.00mm" H 9088 5250 50  0001 C CNN
+F 3 "~" H 9050 5400 50  0001 C CNN
+	1    9050 5400
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:C C3
 U 1 1 5EB92B1D
-P 9150 4600
-F 0 "C3" H 8950 4700 50  0000 L CNN
-F 1 "100nF" H 8900 4500 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 9188 4450 50  0001 C CNN
-F 3 "~" H 9150 4600 50  0001 C CNN
-	1    9150 4600
+P 8200 4800
+F 0 "C3" H 8000 4900 50  0000 L CNN
+F 1 "100nF" H 7950 4700 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 8238 4650 50  0001 C CNN
+F 3 "~" H 8200 4800 50  0001 C CNN
+	1    8200 4800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -206,79 +206,79 @@ LocoNet_TX
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J7
 U 1 1 5EC7A456
-P 7700 4200
-F 0 "J7" H 7750 3875 50  0000 C CNN
-F 1 "SCL/SDA" H 7750 3966 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 7700 4200 50  0001 C CNN
-F 3 "~" H 7700 4200 50  0001 C CNN
-	1    7700 4200
+P 5400 4950
+F 0 "J7" H 5450 4625 50  0000 C CNN
+F 1 "SCL/SDA" H 5450 4716 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 5400 4950 50  0001 C CNN
+F 3 "~" H 5400 4950 50  0001 C CNN
+	1    5400 4950
 	-1   0    0    1   
 $EndComp
 Text GLabel 2800 1300 2    50   Input ~ 0
 NanoD6
-Text GLabel 7400 4100 0    50   Input ~ 0
+Text GLabel 5100 4850 0    50   Input ~ 0
 NanoD6
 $Comp
 L Connector:Conn_01x06_Male J6
 U 1 1 5ECD2EFF
-P 6950 5100
-F 0 "J6" H 6950 5400 50  0000 C CNN
-F 1 "PCA9685" V 6900 5050 50  0000 C CNN
-F 2 "Connector_JST:JST_EH_B6B-EH-A_1x06_P2.50mm_Vertical" H 6950 5100 50  0001 C CNN
-F 3 "~" H 6950 5100 50  0001 C CNN
-	1    6950 5100
+P 4650 5850
+F 0 "J6" H 4650 6150 50  0000 C CNN
+F 1 "PCA9685" V 4600 5800 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_B6B-EH-A_1x06_P2.50mm_Vertical" H 4650 5850 50  0001 C CNN
+F 3 "~" H 4650 5850 50  0001 C CNN
+	1    4650 5850
 	1    0    0    -1  
 $EndComp
-Text GLabel 7150 5300 2    50   Input ~ 0
+Text GLabel 4850 6050 2    50   Input ~ 0
 5V
 $Comp
 L Connector_Generic:Conn_02x02_Odd_Even J9
 U 1 1 5ED1C887
-P 9750 3900
-F 0 "J9" V 9846 3712 50  0000 R CNN
-F 1 "PowerSelect" V 9755 3712 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 9750 3900 50  0001 C CNN
-F 3 "~" H 9750 3900 50  0001 C CNN
-	1    9750 3900
+P 8800 4100
+F 0 "J9" V 8896 3912 50  0000 R CNN
+F 1 "PowerSelect" V 8805 3912 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 8800 4100 50  0001 C CNN
+F 3 "~" H 8800 4100 50  0001 C CNN
+	1    8800 4100
 	0    -1   -1   0   
 $EndComp
-Text GLabel 9850 3600 1    50   Input ~ 0
+Text GLabel 8900 3800 1    50   Input ~ 0
 V+
 $Comp
 L Regulator_Linear:L7805 U3
 U 1 1 5ED43C73
-P 9550 4750
-F 0 "U3" H 9700 4500 50  0000 C CNN
-F 1 "L7805" H 9650 4900 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 9575 4600 50  0001 L CIN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 9550 4700 50  0001 C CNN
-	1    9550 4750
+P 8600 4950
+F 0 "U3" H 8750 4700 50  0000 C CNN
+F 1 "L7805" H 8700 5100 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 8625 4800 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 8600 4900 50  0001 C CNN
+	1    8600 4950
 	-1   0    0    1   
 $EndComp
 $Comp
 L Diode:1N4004 D6
 U 1 1 5EE04288
-P 10000 4350
-F 0 "D6" H 10000 4450 50  0000 C CNN
-F 1 "1N4004" H 10000 4250 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 10000 4175 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 10000 4350 50  0001 C CNN
-	1    10000 4350
+P 9050 4550
+F 0 "D6" H 9050 4650 50  0000 C CNN
+F 1 "1N4004" H 9050 4450 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 9050 4375 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 9050 4550 50  0001 C CNN
+	1    9050 4550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x02_Male J10
 U 1 1 5EE056AF
-P 10450 4450
-F 0 "J10" H 10250 4350 50  0000 L CNN
-F 1 "PWR" H 10250 4450 50  0000 L CNN
-F 2 "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" H 10450 4450 50  0001 C CNN
-F 3 "~" H 10450 4450 50  0001 C CNN
-	1    10450 4450
+P 9500 4650
+F 0 "J10" H 9300 4550 50  0000 L CNN
+F 1 "PWR" H 9300 4650 50  0000 L CNN
+F 2 "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" H 9500 4650 50  0001 C CNN
+F 3 "~" H 9500 4650 50  0001 C CNN
+	1    9500 4650
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	10250 4350 10150 4350
+	9300 4550 9200 4550
 Wire Wire Line
 	1000 5050 1000 5100
 Text GLabel 1550 4350 1    50   Input ~ 0
@@ -315,84 +315,84 @@ Wire Wire Line
 	1550 4400 1550 4350
 Text GLabel 2800 1700 2    50   Input ~ 0
 DCC
-Text GLabel 6100 3850 3    50   Input ~ 0
+Text GLabel 3050 6800 3    50   Input ~ 0
 DCC
 $Comp
 L Connector:Conn_01x02_Male J3
 U 1 1 5EE8BF0A
-P 4250 3800
-F 0 "J3" H 4250 3950 50  0000 L CNN
-F 1 "DCC" V 4200 3700 50  0000 L CNN
-F 2 "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" H 4250 3800 50  0001 C CNN
-F 3 "~" H 4250 3800 50  0001 C CNN
-	1    4250 3800
+P 1200 6750
+F 0 "J3" H 1200 6900 50  0000 L CNN
+F 1 "DCC" V 1150 6650 50  0000 L CNN
+F 2 "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" H 1200 6750 50  0001 C CNN
+F 3 "~" H 1200 6750 50  0001 C CNN
+	1    1200 6750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R11
 U 1 1 5EE8C635
-P 4600 3800
-F 0 "R11" V 4807 3800 50  0000 C CNN
-F 1 "10k" V 4716 3800 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4530 3800 50  0001 C CNN
-F 3 "~" H 4600 3800 50  0001 C CNN
-	1    4600 3800
+P 1550 6750
+F 0 "R11" V 1757 6750 50  0000 C CNN
+F 1 "10k" V 1666 6750 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1480 6750 50  0001 C CNN
+F 3 "~" H 1550 6750 50  0001 C CNN
+	1    1550 6750
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Diode:1N4148 D4
 U 1 1 5EE96BAD
-P 4800 3950
-F 0 "D4" H 4800 3850 50  0000 L CNN
-F 1 "1N4148" H 4650 4050 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4800 3775 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4800 3950 50  0001 C CNN
-	1    4800 3950
+P 1750 6900
+F 0 "D4" H 1750 6800 50  0000 L CNN
+F 1 "1N4148" H 1600 7000 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1750 6725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1750 6900 50  0001 C CNN
+	1    1750 6900
 	0    1    1    0   
 $EndComp
 $Comp
 L Isolator:6N137 U1
 U 1 1 5EE981C8
-P 5350 3800
-F 0 "U1" H 5350 4267 50  0000 C CNN
-F 1 "6N137" H 5350 4176 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 5350 3300 50  0001 C CNN
-F 3 "https://docs.broadcom.com/docs/AV02-0940EN" H 4500 4350 50  0001 C CNN
-	1    5350 3800
+P 2300 6750
+F 0 "U1" H 2300 7217 50  0000 C CNN
+F 1 "6N137" H 2300 7126 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 2300 6250 50  0001 C CNN
+F 3 "https://docs.broadcom.com/docs/AV02-0940EN" H 1450 7300 50  0001 C CNN
+	1    2300 6750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R12
 U 1 1 5EE99D4C
-P 5800 3550
-F 0 "R12" H 5870 3596 50  0000 L CNN
-F 1 "10k" H 5870 3505 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5730 3550 50  0001 C CNN
-F 3 "~" H 5800 3550 50  0001 C CNN
-	1    5800 3550
+P 2750 6500
+F 0 "R12" H 2820 6546 50  0000 L CNN
+F 1 "10k" H 2820 6455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2680 6500 50  0001 C CNN
+F 3 "~" H 2750 6500 50  0001 C CNN
+	1    2750 6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R13
 U 1 1 5EE9A09F
-P 6100 3550
-F 0 "R13" H 6170 3596 50  0000 L CNN
-F 1 "10k" H 6170 3505 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6030 3550 50  0001 C CNN
-F 3 "~" H 6100 3550 50  0001 C CNN
-	1    6100 3550
+P 3050 6500
+F 0 "R13" H 3120 6546 50  0000 L CNN
+F 1 "10k" H 3120 6455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2980 6500 50  0001 C CNN
+F 3 "~" H 3050 6500 50  0001 C CNN
+	1    3050 6500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4750 3800 4800 3800
+	1700 6750 1750 6750
 Wire Wire Line
-	5050 4100 5050 4000
+	2000 7050 2000 6950
 Wire Wire Line
-	5650 3600 5650 3400
+	2600 6550 2600 6350
 Wire Wire Line
-	5650 3400 5800 3400
+	2600 6350 2750 6350
 Wire Wire Line
-	5650 3800 6100 3800
+	2600 6750 3050 6750
 $Comp
 L Connector_Generic:Conn_01x15 J4
 U 1 1 5EBCC256
@@ -447,12 +447,10 @@ Wire Wire Line
 Connection ~ 10150 2550
 Text GLabel 9700 1700 0    50   Input ~ 0
 LocoSignal
-Text GLabel 8100 1750 2    50   Input ~ 0
+Text GLabel 8200 2450 2    50   Input ~ 0
 LocoSignal
 Wire Wire Line
 	8000 1650 8000 1750
-Wire Wire Line
-	8000 1750 8100 1750
 Wire Wire Line
 	7800 1750 8000 1750
 Connection ~ 8000 1750
@@ -538,34 +536,34 @@ Connection ~ 9900 2750
 $Comp
 L power:GND #PWR016
 U 1 1 5EC1A958
-P 10250 4450
-F 0 "#PWR016" H 10250 4200 50  0001 C CNN
-F 1 "GND" H 10255 4277 50  0000 C CNN
-F 2 "" H 10250 4450 50  0001 C CNN
-F 3 "" H 10250 4450 50  0001 C CNN
-	1    10250 4450
+P 9300 4650
+F 0 "#PWR016" H 9300 4400 50  0001 C CNN
+F 1 "GND" H 9305 4477 50  0000 C CNN
+F 2 "" H 9300 4650 50  0001 C CNN
+F 3 "" H 9300 4650 50  0001 C CNN
+	1    9300 4650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR014
 U 1 1 5EC1C14C
-P 10150 5200
-F 0 "#PWR014" H 10150 4950 50  0001 C CNN
-F 1 "GND" V 10155 5072 50  0000 R CNN
-F 2 "" H 10150 5200 50  0001 C CNN
-F 3 "" H 10150 5200 50  0001 C CNN
-	1    10150 5200
+P 9200 5400
+F 0 "#PWR014" H 9200 5150 50  0001 C CNN
+F 1 "GND" V 9205 5272 50  0000 R CNN
+F 2 "" H 9200 5400 50  0001 C CNN
+F 3 "" H 9200 5400 50  0001 C CNN
+	1    9200 5400
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR09
 U 1 1 5EC1D85B
-P 9150 4450
-F 0 "#PWR09" H 9150 4200 50  0001 C CNN
-F 1 "GND" V 9155 4322 50  0000 R CNN
-F 2 "" H 9150 4450 50  0001 C CNN
-F 3 "" H 9150 4450 50  0001 C CNN
-	1    9150 4450
+P 8200 4650
+F 0 "#PWR09" H 8200 4400 50  0001 C CNN
+F 1 "GND" V 8205 4522 50  0000 R CNN
+F 2 "" H 8200 4650 50  0001 C CNN
+F 3 "" H 8200 4650 50  0001 C CNN
+	1    8200 4650
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -593,23 +591,23 @@ $EndComp
 $Comp
 L power:GND #PWR06
 U 1 1 5EC1EDBA
-P 7150 4900
-F 0 "#PWR06" H 7150 4650 50  0001 C CNN
-F 1 "GND" V 7250 4850 50  0000 R CNN
-F 2 "" H 7150 4900 50  0001 C CNN
-F 3 "" H 7150 4900 50  0001 C CNN
-	1    7150 4900
+P 4850 5650
+F 0 "#PWR06" H 4850 5400 50  0001 C CNN
+F 1 "GND" V 4950 5600 50  0000 R CNN
+F 2 "" H 4850 5650 50  0001 C CNN
+F 3 "" H 4850 5650 50  0001 C CNN
+	1    4850 5650
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR01
 U 1 1 5EC1F2AF
-P 5650 4000
-F 0 "#PWR01" H 5650 3750 50  0001 C CNN
-F 1 "GND" V 5655 3872 50  0000 R CNN
-F 2 "" H 5650 4000 50  0001 C CNN
-F 3 "" H 5650 4000 50  0001 C CNN
-	1    5650 4000
+P 2600 6950
+F 0 "#PWR01" H 2600 6700 50  0001 C CNN
+F 1 "GND" V 2605 6822 50  0000 R CNN
+F 2 "" H 2600 6950 50  0001 C CNN
+F 3 "" H 2600 6950 50  0001 C CNN
+	1    2600 6950
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -2625,45 +2623,45 @@ Wire Notes Line
 Text Notes 5350 700  0    50   ~ 0
 Loconet Signal-Feed
 Wire Wire Line
-	4450 3900 4450 4100
+	1400 6850 1400 7050
 Wire Wire Line
-	4450 4100 4800 4100
+	1400 7050 1750 7050
 Wire Wire Line
-	4800 3800 5050 3800
-Connection ~ 4800 3800
-Connection ~ 4800 4100
+	1750 6750 2000 6750
+Connection ~ 1750 6750
+Connection ~ 1750 7050
 Wire Wire Line
-	4800 4100 5050 4100
+	1750 7050 2000 7050
 $Comp
 L power:+5V #PWR02
 U 1 1 5ED717AC
-P 5800 3400
-F 0 "#PWR02" H 5800 3250 50  0001 C CNN
-F 1 "+5V" H 5815 3573 50  0000 C CNN
-F 2 "" H 5800 3400 50  0001 C CNN
-F 3 "" H 5800 3400 50  0001 C CNN
-	1    5800 3400
+P 2750 6350
+F 0 "#PWR02" H 2750 6200 50  0001 C CNN
+F 1 "+5V" H 2765 6523 50  0000 C CNN
+F 2 "" H 2750 6350 50  0001 C CNN
+F 3 "" H 2750 6350 50  0001 C CNN
+	1    2750 6350
 	1    0    0    -1  
 $EndComp
-Connection ~ 5800 3400
+Connection ~ 2750 6350
 Wire Wire Line
-	5800 3700 5650 3700
+	2750 6650 2600 6650
 Wire Wire Line
-	5800 3400 6100 3400
+	2750 6350 3050 6350
 Wire Wire Line
-	6100 3700 6100 3800
-Connection ~ 6100 3800
+	3050 6650 3050 6750
+Connection ~ 3050 6750
 Wire Wire Line
-	6100 3800 6100 3850
+	3050 6750 3050 6800
 Wire Notes Line
-	4150 3150 4150 4250
+	1100 6100 1100 7200
 Wire Notes Line
-	4150 4250 6350 4250
+	1100 7200 3300 7200
 Wire Notes Line
-	6350 4250 6350 3150
+	3300 7200 3300 6100
 Wire Notes Line
-	6350 3150 4150 3150
-Text Notes 4150 3150 0    50   ~ 0
+	3300 6100 1100 6100
+Text Notes 1100 6100 0    50   ~ 0
 DCC Interface
 Wire Wire Line
 	5650 1500 5650 1650
@@ -2741,60 +2739,60 @@ Wire Wire Line
 Wire Wire Line
 	8850 1450 8850 1400
 Wire Wire Line
-	9850 4350 9850 4750
-Connection ~ 9850 4750
+	8900 4550 8900 4950
+Connection ~ 8900 4950
 Wire Wire Line
-	9850 4750 9850 5100
+	8900 4950 8900 5300
 $Comp
 L power:+5V #PWR0103
 U 1 1 5EE843B8
-P 9750 3600
-F 0 "#PWR0103" H 9750 3450 50  0001 C CNN
-F 1 "+5V" V 9750 3800 50  0000 C CNN
-F 2 "" H 9750 3600 50  0001 C CNN
-F 3 "" H 9750 3600 50  0001 C CNN
-	1    9750 3600
+P 8800 3800
+F 0 "#PWR0103" H 8800 3650 50  0001 C CNN
+F 1 "+5V" V 8800 4000 50  0000 C CNN
+F 2 "" H 8800 3800 50  0001 C CNN
+F 3 "" H 8800 3800 50  0001 C CNN
+	1    8800 3800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0104
 U 1 1 5EE84D7A
-P 6750 4100
-F 0 "#PWR0104" H 6750 3950 50  0001 C CNN
-F 1 "+5V" V 6750 4300 50  0000 C CNN
-F 2 "" H 6750 4100 50  0001 C CNN
-F 3 "" H 6750 4100 50  0001 C CNN
-	1    6750 4100
+P 4450 4850
+F 0 "#PWR0104" H 4450 4700 50  0001 C CNN
+F 1 "+5V" V 4450 5050 50  0000 C CNN
+F 2 "" H 4450 4850 50  0001 C CNN
+F 3 "" H 4450 4850 50  0001 C CNN
+	1    4450 4850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9850 4100 9850 4350
-Connection ~ 9850 4350
-Connection ~ 9150 4450
+	8900 4300 8900 4550
+Connection ~ 8900 4550
+Connection ~ 8200 4650
 Wire Wire Line
-	9150 4450 9550 4450
-Connection ~ 9150 4750
+	8200 4650 8600 4650
+Connection ~ 8200 4950
 Wire Wire Line
-	9150 4750 9250 4750
+	8200 4950 8300 4950
 Wire Wire Line
-	9600 5100 9850 5100
-Connection ~ 9850 5100
+	8650 5300 8900 5300
+Connection ~ 8900 5300
 Wire Wire Line
-	9850 5100 9850 5200
+	8900 5300 8900 5400
 Wire Wire Line
-	9300 5100 8850 5100
+	8350 5300 7900 5300
 Wire Wire Line
-	8850 5100 8850 4750
-Connection ~ 8850 4750
+	7900 5300 7900 4950
+Connection ~ 7900 4950
 Wire Wire Line
-	8850 4750 9150 4750
+	7900 4950 8200 4950
 Wire Wire Line
-	8850 4750 8850 4100
+	7900 4950 7900 4300
 Wire Wire Line
-	8850 4100 9750 4100
-Text Notes 8850 4100 0    20   ~ 0
+	7900 4300 8800 4300
+Text Notes 7900 4300 0    20   ~ 0
 5V geregelt
-Text Notes 8850 5750 0    30   ~ 0
+Text Notes 7900 5950 0    30   ~ 0
 Spannungsversorgung für Arduino:\nOption 1:\n- Spannungsregulator D2 erzeugt aus 7V Loconet-Spannung +5V.\n- Jumper Pin1 <-> Pin2 auf J3 gibt diese Spannung auf 5V Eingang des Arduino\n- Der arduino-interne Spannungsregler wird dabei übergagnen\nOption 2:\n- Jumper Pin3 <-> Pin4 auf J3 gibt die +7V vom Loconet an V_in des Arduino\n- Die 5V erzeugt der arduino-interene Spannungsregler\n
 Text GLabel 900  1100 0    50   Input ~ 0
 2
@@ -3014,95 +3012,95 @@ Connection ~ 2800 2600
 $Comp
 L Connector_Generic:Conn_02x01 J11
 U 1 1 5F0DA298
-P 6750 4300
-F 0 "J11" V 6750 4450 50  0000 R CNN
-F 1 "PullUpEnable" H 7050 4150 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 6750 4300 50  0001 C CNN
-F 3 "~" H 6750 4300 50  0001 C CNN
-	1    6750 4300
+P 4450 5050
+F 0 "J11" V 4450 5200 50  0000 R CNN
+F 1 "PullUpEnable" H 4750 4900 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 4450 5050 50  0001 C CNN
+F 3 "~" H 4450 5050 50  0001 C CNN
+	1    4450 5050
 	0    1    1    0   
 $EndComp
 Text GLabel 2800 2900 2    50   Input ~ 0
 I2C_SCL
 Text GLabel 2800 3000 2    50   Input ~ 0
 I2C_SDA
-Text GLabel 7450 5100 2    50   Input ~ 0
+Text GLabel 5150 5850 2    50   Input ~ 0
 I2C_SCL
-Text GLabel 7450 5200 2    50   Input ~ 0
+Text GLabel 5150 5950 2    50   Input ~ 0
 I2C_SDA
 Wire Wire Line
-	7150 5100 7400 5100
+	4850 5850 5100 5850
 Wire Wire Line
-	7200 4600 7400 4600
+	4900 5350 5100 5350
 Wire Wire Line
-	6900 4600 6750 4600
+	4600 5350 4450 5350
 Text GLabel 2800 1400 2    50   Input ~ 0
 NanoD5
-Text GLabel 7900 4100 2    50   Input ~ 0
+Text GLabel 5600 4850 2    50   Input ~ 0
 NanoD5
 Wire Wire Line
-	7400 4300 7400 4600
+	5100 5050 5100 5350
 Wire Wire Line
-	6750 5550 6900 5550
+	4450 6300 4600 6300
 Wire Wire Line
-	7400 5550 7400 5200
-Connection ~ 7400 5550
+	5100 6300 5100 5950
+Connection ~ 5100 6300
 Wire Wire Line
-	7400 5550 7200 5550
+	5100 6300 4900 6300
 Wire Wire Line
-	7400 5200 7150 5200
+	5100 5950 4850 5950
 Wire Wire Line
-	7400 5100 7400 4600
-Connection ~ 7400 4600
+	5100 5850 5100 5350
+Connection ~ 5100 5350
 Wire Wire Line
-	7400 5550 7900 5550
+	5100 6300 5600 6300
 Wire Wire Line
-	7400 5100 7450 5100
-Connection ~ 7400 5100
+	5100 5850 5150 5850
+Connection ~ 5100 5850
 Wire Wire Line
-	7400 5200 7450 5200
-Connection ~ 7400 5200
+	5100 5950 5150 5950
+Connection ~ 5100 5950
 Wire Wire Line
-	7900 4300 7900 5550
+	5600 5050 5600 6300
 $Comp
 L power:GND #PWR011
 U 1 1 5EC35A4F
-P 7800 3450
-F 0 "#PWR011" H 7800 3200 50  0001 C CNN
-F 1 "GND" V 7700 3450 50  0000 R CNN
-F 2 "" H 7800 3450 50  0001 C CNN
-F 3 "" H 7800 3450 50  0001 C CNN
-	1    7800 3450
+P 5500 4200
+F 0 "#PWR011" H 5500 3950 50  0001 C CNN
+F 1 "GND" V 5400 4200 50  0000 R CNN
+F 2 "" H 5500 4200 50  0001 C CNN
+F 3 "" H 5500 4200 50  0001 C CNN
+	1    5500 4200
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x04_Male J8
 U 1 1 5EC7C668
-P 7600 3650
-F 0 "J8" V 7600 3900 50  0000 C CNN
-F 1 "I²C Connector" V 8000 3600 50  0000 C CNN
-F 2 "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical" H 7600 3650 50  0001 C CNN
-F 3 "~" H 7600 3650 50  0001 C CNN
-	1    7600 3650
+P 5300 4400
+F 0 "J8" V 5300 4650 50  0000 C CNN
+F 1 "I²C Connector" V 5700 4350 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical" H 5300 4400 50  0001 C CNN
+F 3 "~" H 5300 4400 50  0001 C CNN
+	1    5300 4400
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7400 4200 7000 4200
+	5100 4950 4700 4950
 Wire Wire Line
-	7000 4200 7000 3750
+	4700 4950 4700 4500
 Wire Wire Line
-	7000 3750 7600 3750
+	4700 4500 5300 4500
 Wire Wire Line
-	7600 3750 7600 3450
+	5300 4500 5300 4200
 Wire Wire Line
-	7900 4200 8300 4200
+	5600 4950 6000 4950
 Wire Wire Line
-	8300 3750 7700 3750
+	6000 4500 5400 4500
 Wire Wire Line
-	7700 3750 7700 3450
-Connection ~ 6750 4600
+	5400 4500 5400 4200
+Connection ~ 4450 5350
 Wire Wire Line
-	6750 4600 6750 5550
+	4450 5350 4450 6300
 $Comp
 L power:+5V #PWR04
 U 1 1 5F279288
@@ -3139,37 +3137,37 @@ $EndComp
 $Comp
 L power:+5V #PWR020
 U 1 1 5F27A76A
-P 7500 3450
-F 0 "#PWR020" H 7500 3300 50  0001 C CNN
-F 1 "+5V" V 7400 3500 50  0000 C CNN
-F 2 "" H 7500 3450 50  0001 C CNN
-F 3 "" H 7500 3450 50  0001 C CNN
-	1    7500 3450
+P 5200 4200
+F 0 "#PWR020" H 5200 4050 50  0001 C CNN
+F 1 "+5V" V 5100 4250 50  0000 C CNN
+F 2 "" H 5200 4200 50  0001 C CNN
+F 3 "" H 5200 4200 50  0001 C CNN
+	1    5200 4200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8300 3750 8300 4200
+	6000 4500 6000 4950
 Wire Notes Line
-	6500 6100 8650 6100
+	4200 6850 6350 6850
 Wire Notes Line
-	8650 6100 8650 3150
+	6350 6850 6350 3900
 Wire Notes Line
-	8650 3150 6500 3150
+	6350 3900 4200 3900
 Wire Notes Line
-	6500 3150 6500 6100
-Text Notes 6600 6050 0    30   ~ 0
+	4200 3900 4200 6850
+Text Notes 4300 6800 0    30   ~ 0
 Am Arduino Nano sind SDA und SCL für I²C-Kommunikation an Pins A4/A5 verfügbar.\nDer PCA9685-Stecker dient zum Anschluss eines Moduls für LED / Servosteuerung:\nhttps://www.adafruit.com/product/815\nAlternativ kann I²C-Peripherie an J8 angeschlossen werden.\nOptional können über J11 PullUps für SCL/SDA aktiviert werden, \ndamit kann fast jedes I²C-Modul angesteuert werden.\nÜber J7 kann optional statt A4/A5 auch D6/D7 an den Connector J8 gegeben werden.
 Wire Notes Line
-	8750 3150 8750 6100
+	7800 3350 7800 6300
 Wire Notes Line
-	8750 6100 10850 6100
+	7800 6300 9900 6300
 Wire Notes Line
-	10850 6100 10850 3150
+	9900 6300 9900 3350
 Wire Notes Line
-	10850 3150 8750 3150
-Text Notes 6500 3150 0    50   ~ 0
+	9900 3350 7800 3350
+Text Notes 4200 3900 0    50   ~ 0
 I²C-Bus
-Text Notes 8750 3150 0    50   ~ 0
+Text Notes 7800 3350 0    50   ~ 0
 Arduino Spannungsversorgung
 Entry Bus Bus
 	13550 9650 13650 9750
@@ -3195,12 +3193,12 @@ $EndComp
 $Comp
 L power:Vdrive #PWR013
 U 1 1 5F9BE244
-P 9850 4750
-F 0 "#PWR013" H 9650 4600 50  0001 C CNN
-F 1 "Vdrive" V 9867 4878 50  0000 L CNN
-F 2 "" H 9850 4750 50  0001 C CNN
-F 3 "" H 9850 4750 50  0001 C CNN
-	1    9850 4750
+P 8900 4950
+F 0 "#PWR013" H 8700 4800 50  0001 C CNN
+F 1 "Vdrive" V 8917 5078 50  0000 L CNN
+F 2 "" H 8900 4950 50  0001 C CNN
+F 3 "" H 8900 4950 50  0001 C CNN
+	1    8900 4950
 	0    1    1    0   
 $EndComp
 Text Label 6800 1350 0    50   ~ 0
@@ -3304,4 +3302,8 @@ Wire Wire Line
 Connection ~ 9550 2400
 Wire Wire Line
 	9550 2400 9550 2750
+Wire Wire Line
+	8000 1750 8000 2450
+Wire Wire Line
+	8000 2450 8200 2450
 $EndSCHEMATC
