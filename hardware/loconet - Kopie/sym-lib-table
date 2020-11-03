@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name jung-ic)(type Legacy)(uri ${KIPRJMOD}/../../KiCad-Library/jung-ic.lib)(options "")(descr ""))
+  (lib (name jung-connector)(type Legacy)(uri ${KIPRJMOD}/../../KiCad-Library/jung-connector.lib)(options "")(descr ""))  
+  (lib (name jung-other)(type Legacy)(uri ${KIPRJMOD}/../../KiCad-Library/jung-other.lib)(options "")(descr ""))  
+  )

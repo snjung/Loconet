@@ -178,17 +178,6 @@ F 3 "~" H 9150 4600 50  0001 C CNN
 	1    9150 4600
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:LED D3
-U 1 1 5EB93691
-P 5650 1850
-F 0 "D3" V 5550 1850 50  0000 L CNN
-F 1 "LocoCom" H 5400 1700 50  0000 L CNN
-F 2 "LED_THT:LED_D3.0mm" H 5650 1850 50  0001 C CNN
-F 3 "~" H 5650 1850 50  0001 C CNN
-	1    5650 1850
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	10150 1400 9950 1400
 Wire Wire Line
@@ -450,8 +439,6 @@ Wire Wire Line
 	9900 2750 9900 1900
 Wire Wire Line
 	9900 1900 10150 1900
-Wire Wire Line
-	9550 2250 9550 2400
 Wire Wire Line
 	10150 1600 10150 1700
 Connection ~ 10150 1700
@@ -2686,23 +2673,23 @@ V+
 $Comp
 L Comparator:LM393 U2
 U 1 1 5EDB1EB7
-P 8150 2550
-F 0 "U2" H 8150 2917 50  0000 C CNN
-F 1 "LM393" H 8150 2826 50  0000 C CNN
-F 2 "" H 8150 2550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm393-n.pdf" H 8150 2550 50  0001 C CNN
-	1    8150 2550
+P 4300 2000
+F 0 "U2" H 4300 2367 50  0000 C CNN
+F 1 "LM393" H 4300 2276 50  0000 C CNN
+F 2 "" H 4300 2000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm393-n.pdf" H 4300 2000 50  0001 C CNN
+	1    4300 2000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Comparator:LM393 U2
 U 3 1 5EDB30C8
-P 8700 2500
-F 0 "U2" H 8658 2546 50  0000 L CNN
-F 1 "LM393" H 8658 2455 50  0000 L CNN
-F 2 "" H 8700 2500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm393-n.pdf" H 8700 2500 50  0001 C CNN
-	3    8700 2500
+P 2400 4800
+F 0 "U2" H 2358 4846 50  0000 L CNN
+F 1 "LM393" H 2358 4755 50  0000 L CNN
+F 2 "" H 2400 4800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm393-n.pdf" H 2400 4800 50  0001 C CNN
+	3    2400 4800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2713,31 +2700,23 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0101
 U 1 1 5EDB506B
-P 8600 2800
-F 0 "#PWR0101" H 8600 2550 50  0001 C CNN
-F 1 "GND" V 8605 2672 50  0000 R CNN
-F 2 "" H 8600 2800 50  0001 C CNN
-F 3 "" H 8600 2800 50  0001 C CNN
-	1    8600 2800
+P 2300 5150
+F 0 "#PWR0101" H 2300 4900 50  0001 C CNN
+F 1 "GND" V 2305 5022 50  0000 R CNN
+F 2 "" H 2300 5150 50  0001 C CNN
+F 3 "" H 2300 5150 50  0001 C CNN
+	1    2300 5150
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	8600 2800 8450 2800
-Wire Wire Line
-	7850 2800 7850 2650
-Connection ~ 8600 2800
-Wire Wire Line
-	7850 2650 7850 2450
-Connection ~ 7850 2650
 $Comp
 L power:+5V #PWR0102
 U 1 1 5EDD0583
-P 8600 2200
-F 0 "#PWR0102" H 8600 2050 50  0001 C CNN
-F 1 "+5V" H 8700 2250 50  0000 C CNN
-F 2 "" H 8600 2200 50  0001 C CNN
-F 3 "" H 8600 2200 50  0001 C CNN
-	1    8600 2200
+P 2300 4450
+F 0 "#PWR0102" H 2300 4300 50  0001 C CNN
+F 1 "+5V" H 2400 4500 50  0000 C CNN
+F 2 "" H 2300 4450 50  0001 C CNN
+F 3 "" H 2300 4450 50  0001 C CNN
+	1    2300 4450
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -3202,21 +3181,16 @@ Entry Bus Bus
 	14700 -1150 14800 -1050
 Entry Bus Bus
 	14700 -1150 14800 -1050
-Wire Wire Line
-	8450 2550 8450 2800
-Connection ~ 8450 2800
-Wire Wire Line
-	8450 2800 7850 2800
 $Comp
 L power:Vdrive #PWR07
 U 1 1 5F9BCDAB
-P 9550 2400
-F 0 "#PWR07" H 9350 2250 50  0001 C CNN
-F 1 "Vdrive" V 9568 2528 50  0000 L CNN
-F 2 "" H 9550 2400 50  0001 C CNN
-F 3 "" H 9550 2400 50  0001 C CNN
-	1    9550 2400
-	0    -1   -1   0   
+P 9400 1900
+F 0 "#PWR07" H 9200 1750 50  0001 C CNN
+F 1 "Vdrive" V 9418 2028 50  0000 L CNN
+F 2 "" H 9400 1900 50  0001 C CNN
+F 3 "" H 9400 1900 50  0001 C CNN
+	1    9400 1900
+	0    1    1    0   
 $EndComp
 $Comp
 L power:Vdrive #PWR013
@@ -3229,9 +3203,105 @@ F 3 "" H 9850 4750 50  0001 C CNN
 	1    9850 4750
 	0    1    1    0   
 $EndComp
+Text Label 6800 1350 0    50   ~ 0
+Komperatorspannung
+Text GLabel 6900 1550 2    50   Input ~ 0
+U_Komperator
+Wire Wire Line
+	6800 1550 6900 1550
+Connection ~ 6800 1550
+$Comp
+L Device:R R15
+U 1 1 5FA24740
+P 4700 1750
+F 0 "R15" V 4493 1750 50  0000 C CNN
+F 1 "470k" V 4584 1750 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4630 1750 50  0001 C CNN
+F 3 "~" H 4700 1750 50  0001 C CNN
+	1    4700 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 4450 2300 4500
+Wire Wire Line
+	2300 5100 2300 5150
+$Comp
+L Device:LED D8
+U 1 1 5FA41AAA
+P 4700 1400
+F 0 "D8" V 4600 1400 50  0000 L CNN
+F 1 "LocoTX" H 4450 1250 50  0000 L CNN
+F 2 "LED_THT:LED_D3.0mm" H 4700 1400 50  0001 C CNN
+F 3 "~" H 4700 1400 50  0001 C CNN
+	1    4700 1400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4700 1550 4700 1600
+Wire Wire Line
+	4700 1900 4700 2000
+Wire Wire Line
+	4700 1250 4700 1200
+Text GLabel 3900 1900 1    50   Input ~ 0
+U_Komperator
+Wire Wire Line
+	3900 1900 4000 1900
+Text GLabel 3900 2100 3    50   Input ~ 0
+LocoNet_TX
+Wire Wire Line
+	3900 2100 4000 2100
+Wire Wire Line
+	4600 2000 4700 2000
+$Comp
+L power:+5V #PWR0107
+U 1 1 5FA7987F
+P 4700 1200
+F 0 "#PWR0107" H 4700 1050 50  0001 C CNN
+F 1 "+5V" H 4800 1250 50  0000 C CNN
+F 2 "" H 4700 1200 50  0001 C CNN
+F 3 "" H 4700 1200 50  0001 C CNN
+	1    4700 1200
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3800 1000 4900 1000
+Wire Notes Line
+	4900 1000 4900 2600
+Wire Notes Line
+	4900 2600 3800 2600
+Wire Notes Line
+	3800 2600 3800 1000
+Text Notes 3800 1000 0    50   ~ 0
+Transmitter Diode
+$Comp
+L Device:LED D3
+U 1 1 5EB93691
+P 5650 1850
+F 0 "D3" V 5550 1850 50  0000 L CNN
+F 1 "LocoRX" H 5400 1700 50  0000 L CNN
+F 2 "LED_THT:LED_D3.0mm" H 5650 1850 50  0001 C CNN
+F 3 "~" H 5650 1850 50  0001 C CNN
+	1    5650 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x01 J12
+U 1 1 5FB03C5E
+P 9300 2100
+F 0 "J12" V 9300 2250 50  0000 R CNN
+F 1 "Railsync" H 9600 1950 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 9300 2100 50  0001 C CNN
+F 3 "~" H 9300 2100 50  0001 C CNN
+	1    9300 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9300 1900 9400 1900
+Wire Wire Line
+	9550 2250 9550 2400
+Wire Wire Line
+	9300 2400 9550 2400
 Connection ~ 9550 2400
 Wire Wire Line
 	9550 2400 9550 2750
-Text Label 6800 1350 0    50   ~ 0
-Komperatorspannung
 $EndSCHEMATC
